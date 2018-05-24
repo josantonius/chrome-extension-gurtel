@@ -14,7 +14,7 @@ Extensión conmemorativa a la sentencia del caso Gürtel.
 
 Sustituye en Twitter el emoji de la bandera de España :es: por uno más acorde :inbox_tray: con nuestros corruptos patriotas y quienes les sostienen. 
 
-*Esta extensión tiene la misma utilidad que ellos, ninguna... Pero no te roba* :unamused:
+*Esta extensión tiene la misma utilidad que ellos, ninguna... Pero al menos no te roba* :wink:
 
 <p align="center">
   <a href="assets/pp-gurtel.png" title="Después de la modificación">
