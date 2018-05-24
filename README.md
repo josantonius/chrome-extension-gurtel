@@ -65,7 +65,7 @@ Popular = '1f4a9.png'
 También puedes modificar el intervalo de actualización:
 
 ```javascript
-setTimeout(gurtel, 5000) // 5 segundos
+setTimeout(gurtel, 5000) // cada 5 segundos
 ```
 
 ## Referencias 
