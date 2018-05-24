@@ -58,7 +58,15 @@ Sustituye en Twitter el emoji de la bandera de España :es: por uno más acorde 
 
 Por ejemplo:
 
-    Popular = '1f4a9.png'
+```javascript
+Popular = '1f4a9.png'
+```
+
+También puedes modificar el intervalo de actualización:
+
+```javascript
+setTimeout(gurtel, 5000) // 5 segundos
+```
 
 ## Referencias 
 
