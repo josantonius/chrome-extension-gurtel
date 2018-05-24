@@ -4,7 +4,6 @@ Extensión conmemorativa a la sentencia del caso Gürtel.
 
 ---
 
-- [Detalles](#detalles)
 - [Instalación](#instalación)
 - [Código](#codigo)
 - [Referencias](#referencias)
@@ -15,7 +14,7 @@ Extensión conmemorativa a la sentencia del caso Gürtel.
 
 Sustituye en Twitter el emoji de la bandera de España :es: por uno más acorde :inbox_tray: con nuestros corruptos patriotas y quienes les sostienen. 
 
-*Esta extensión tiene la misma utilidad que ellos, ninguna... Pero no te roba* :unamused:
+* *Esta extensión tiene la misma utilidad que ellos, ninguna... Pero no te roba* :unamused:
 
 <p align="center">
   <a href="assets/pp-gurtel.png" title="Después de la modificación">
@@ -25,15 +24,17 @@ Sustituye en Twitter el emoji de la bandera de España :es: por uno más acorde 
 
 ## Instalación 
 
-**Clona el repositorio** completo con Git o [descárgalo](https://raw.githubusercontent.com/Josantonius/chrome-extension-gurtel):
+- **Clona el repositorio** completo con Git o [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
 
     $ git clone https://github.com/Josantonius/chrome-extension-gurtel.git
 
-**Descomprime el archivo ZIP**
+- **Descomprime el archivo ZIP**
 
-**Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
+- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
 
-**Haz click en el botón empaquetar extensión** y selecciona la carpeta `chrome-extension-gurtel` para instalar la extensión.
+- **Haz click en el botón empaquetar extensión** y selecciona la carpeta `chrome-extension-gurtel` para instalar la extensión.
+
+- **Activa la extensión**.
 
 ## Código
 
