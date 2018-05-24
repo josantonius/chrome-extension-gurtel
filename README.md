@@ -54,7 +54,7 @@ Sustituye en Twitter el emoji de la bandera de España :es: por uno más acorde 
 })()
 ```
 
-*Si quieres modificar el icono de sustitución entra en el archivo `gurtel.js` y modifica la imagen del emoji de Twitter en la variable `Ṕopular`.*
+*Si quieres modificar el emoji de sustitución, entra en el archivo `gurtel.js` y sustituye la imagen del emoji de Twitter en la variable `Ṕopular`.*
 
 Por ejemplo:
 
