@@ -39,7 +39,7 @@ Sustituye en Twitter el emoji de la bandera de España por uno más acorde con e
 
 ### Método 2
 
-- [Descárga](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip) el repositorio completo o utiliza Git para clonarlo: `git clone https://github.com/Josantonius/chrome-extension-gurtel.git`.
+- [Descárga](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip) el repositorio completo o **utiliza Git para clonarlo**.
 
 - **Descomprime el archivo ZIP**.
 
