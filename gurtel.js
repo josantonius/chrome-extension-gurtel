@@ -13,5 +13,5 @@
     ? corruption.setAttribute('src', PP)
     : corruption.setAttribute('style', `background-image:url("${PP}")`)
   })
-  setTimeout(() => { Gurtel(M, PP) }, 2018)
+  setTimeout(() => { Gurtel(M, PP) }, 1000)
 })({ Rajoy: '1f1ea-1f1f8.png' }, '//abs.twimg.com/emoji/v2/72x72/1f4e9.png')

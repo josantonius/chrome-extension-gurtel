@@ -8,3 +8,4 @@ composer.lock
 composer-test.lock
 phpcbf-fixed.diff
 .idea
+modified-version/
