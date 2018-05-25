@@ -27,31 +27,31 @@ Sustituye en Twitter el emoji de la bandera de España por uno más acorde con e
 
 ## Instalación
 
-- **Método 1**
+### Método 1
 
--- **Descarga el archivo** [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
+- **Descarga el archivo** [gurtel.crx](https://github.com/Josantonius/chrome-extension-gurtel/raw/master/gurtel.crx).
 
--- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
+- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
 
--- **Arrastra el archivo descargado** a la pestaña abierta de `chrome://extensions/`.
+- **Arrastra el archivo descargado** a la pestaña abierta de `chrome://extensions/`.
 
--- **Instala la extensión**.
+- **Instala la extensión**.
 
-- **Método 2**
+### Método 2
 
--- **Clona el repositorio** completo con Git o [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
+- **Clona el repositorio** completo con Git o [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
 
     $ git clone https://github.com/Josantonius/chrome-extension-gurtel.git
 
--- **Descomprime el archivo ZIP**.
+- **Descomprime el archivo ZIP**.
 
--- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
+- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
 
--- **Haz click en el botón empaquetar extensión** y selecciona el directorio `chrome-extension-gurtel` para **instalar la extensión**.
+- **Haz click en el botón empaquetar extensión** y selecciona el directorio `chrome-extension-gurtel` para **instalar la extensión**.
 
--- **Arrastra el archivo generado** a la pestaña abierta de `chrome://extensions/`.
+- **Arrastra el archivo generado** a la pestaña abierta de `chrome://extensions/`.
 
--- **Instala la extensión**.
+- **Instala la extensión**.
 
 ## Código
 
@@ -68,13 +68,13 @@ Sustituye en Twitter el emoji de la bandera de España por uno más acorde con e
 
   > *Si quieres utilizar un emoji de sustitución diferente, utiliza el método de instalación 2, entra en el archivo `gurtel.js` antes de empaquetar la extensión y sustituye en la última línea la URL de la imagen del emoji de Twitter.*
 
--- Por ejemplo:
+Por ejemplo:
 
 ```javascript
 })({ Rajoy: '1f1ea-1f1f8.png' }, 'https://abs.twimg.com/emoji/v2/72x72/1f4a9.png')
 ```
 
--- También puedes modificar el intervalo de actualización:
+También puedes modificar el intervalo de actualización:
 
 ```javascript
 setTimeout(() => { Gürtel(M, PP) }, 5000) // cada 5 segundos
