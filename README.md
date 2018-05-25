@@ -18,10 +18,10 @@ Sustituye en Twitter el emoji de la bandera de España por uno más acorde con e
 
 <p align="center">
   <a href="assets/condena-pp-gurtel.png">
-    <img style="width: 430px;" src="assets/condena-pp-gurtel.png">
+    <img width="430px" src="assets/condena-pp-gurtel.png">
   </a>
   <a href="assets/condena-pp-gurtel-2.png">
-    <img style="width: 430px;" src="assets/condena-pp-gurtel-2.png">
+    <img width="430px" src="assets/condena-pp-gurtel-2.png">
   </a>
 </p>
 
