@@ -47,7 +47,7 @@ Sustituye en Twitter el emoji de la bandera de España por uno más acorde con e
 
 - **Haz click en el botón empaquetar extensión** y selecciona el directorio `chrome-extension-gurtel` para **instalar la extensión**.
 
-- **Arrastra el archivo generado** a la pestaña abierta de `chrome://extensions/`.
+- **Arrastra el archivo generado** (`gurtel.crx`) a la pestaña abierta de `chrome://extensions/`.
 
 - **Instala la extensión**.
 
