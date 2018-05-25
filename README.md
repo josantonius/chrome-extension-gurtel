@@ -39,19 +39,19 @@ Sustituye en Twitter el emoji de la bandera de España por uno más acorde con e
 
 ### Método 2
 
-- **Clona el repositorio** completo con Git o [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
+· **Clona el repositorio** completo con Git o [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
 
     $ git clone https://github.com/Josantonius/chrome-extension-gurtel.git
 
-- **Descomprime el archivo ZIP**.
+· **Descomprime el archivo ZIP**.
 
-- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
+· **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
 
-- **Haz click en el botón empaquetar extensión** y selecciona el directorio `chrome-extension-gurtel` para **instalar la extensión**.
+· **Haz click en el botón empaquetar extensión** y selecciona el directorio `chrome-extension-gurtel` para **instalar la extensión**.
 
-- **Arrastra el archivo generado** a la pestaña abierta de `chrome://extensions/`.
+· **Arrastra el archivo generado** a la pestaña abierta de `chrome://extensions/`.
 
-- **Instala la extensión**.
+· **Instala la extensión**.
 
 ## Código
 
