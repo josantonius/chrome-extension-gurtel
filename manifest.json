@@ -1,6 +1,6 @@
 {
   "name": "Gürtel",
-  "description": "Extensión conmemorativa a la sentencia del caso Gürtel. Sustituye en Twitter el emoji de la bandera de España por uno más acorde con nuestros corruptos patriotas y quienes les sostienen. Esta extensión tiene la misma utilidad que ellos... pero al menos no te roba.",
+  "description": "Sustituye en Twitter el emoji de la bandera de España por uno más acorde con esos, que envueltos en un trozo de tela, saquean lealmente su patria.",
   "version": "1.0",
   "permissions": [
     "activeTab"
@@ -13,7 +13,7 @@
     }
   ],
   "browser_action": {
-      "default_title": "Gürtel",
+      "default_title": "Solo veo españoles",
       "default_icon": "assets/icon.png"
   },
   "manifest_version": 2

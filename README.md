@@ -12,63 +12,77 @@ Extensión conmemorativa a la sentencia del caso Gürtel.
 
 ---
 
-Sustituye en Twitter el emoji de la bandera de España :es: por uno más acorde :inbox_tray: con nuestros corruptos patriotas y quienes les sostienen. 
+Sustituye en Twitter el emoji de la bandera de España por uno más acorde con esos, que envueltos en un trozo de tela, saquean lealmente su patria.
 
-*Esta extensión tiene la misma utilidad que ellos, ninguna... Pero al menos no te roba* :wink:
+  > La extensión es tan inútil como ellos, pero al menos no te roba :smirk:
 
 <p align="center">
-  <a href="assets/pp-gurtel.png" title="Después de la modificación">
-    <img src="assets/pp-gurtel.png">
+  <a href="assets/condena-pp-gurtel.png" title="Después de la modificación">
+    <img style="max-width: 300px" src="assets/condena-pp-gurtel.png">
+  </a>
+  <a href="assets/condena-pp-gurtel-2.png" title="Después de la modificación">
+    <img style="max-width: 300px" src="assets/condena-pp-gurtel-2.png">
   </a>
 </p>
 
-## Instalación 
+## Instalación
 
-· **Clona el repositorio** completo con Git o [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
+- **Método 1**
+
+-- **Descarga el archivo** [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
+
+-- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
+
+-- **Arrastra el archivo descargado** a la pestaña abierta de `chrome://extensions/`.
+
+-- **Instala la extensión**.
+
+- **Método 2**
+
+-- **Clona el repositorio** completo con Git o [descárgalo](https://github.com/Josantonius/chrome-extension-gurtel/archive/master.zip):
 
     $ git clone https://github.com/Josantonius/chrome-extension-gurtel.git
 
-· **Descomprime el archivo ZIP**
+-- **Descomprime el archivo ZIP**.
 
-· **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
+-- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
 
-· **Haz click en el botón empaquetar extensión** y selecciona la carpeta `chrome-extension-gurtel` para instalar la extensión.
+-- **Haz click en el botón empaquetar extensión** y selecciona el directorio `chrome-extension-gurtel` para **instalar la extensión**.
 
-· **Activa la extensión**.
+-- **Arrastra el archivo generado** a la pestaña abierta de `chrome://extensions/`.
+
+-- **Instala la extensión**.
 
 ## Código
 
 ```javascript
-(function gurtel() {
-  let M = { Rajoy: '1f1ea-1f1f8.png' },
-      caja = document.querySelectorAll('[style*="' + M.Rajoy + '"], [src*="' + M.Rajoy + '"]')
-      Partido = 'https://abs.twimg.com/emoji/v2/72x72/',
-      Popular = '1f4e9.png'
-  for (let B in caja) {
-    if (B % 1 !== 0) continue
-    caja[B].style.backgroundImage
-    ? caja[B].setAttribute('style', 'background-image:url("' + Partido + Popular + '")')
-    : caja[B].setAttribute('src', Partido + Popular)
-  }
-  setTimeout(gurtel, 1500)
-})()
+(function Gürtel(M, PP, spanish, political, corruption) {
+  document.querySelectorAll(`[style*="${M.Rajoy}"], [src*="${M.Rajoy}"]`).forEach(corruption => {
+    corruption.src
+    ? corruption.setAttribute('src', PP)
+    : corruption.setAttribute('style', `background-image:url("${PP}")`)
+  })
+  setTimeout(() => { Gürtel(M, PP) }, 2018)
+})({ Rajoy: '1f1ea-1f1f8.png' }, '//abs.twimg.com/emoji/v2/72x72/1f4e9.png')
 ```
 
-*Si quieres modificar el emoji de sustitución, entra en el archivo `gurtel.js` y sustituye la imagen del emoji de Twitter en la variable `Ṕopular`.*
+  > *Si quieres utilizar un emoji de sustitución diferente, utiliza el método de instalación 2, entra en el archivo `gurtel.js` antes de empaquetar la extensión y sustituye en la última línea la URL de la imagen del emoji de Twitter.*
 
-Por ejemplo:
+-- Por ejemplo:
 
 ```javascript
-Popular = '1f4a9.png'
+})({ Rajoy: '1f1ea-1f1f8.png' }, 'https://abs.twimg.com/emoji/v2/72x72/1f4a9.png')
 ```
 
-También puedes modificar el intervalo de actualización:
+-- También puedes modificar el intervalo de actualización:
 
 ```javascript
-setTimeout(gurtel, 5000) // cada 5 segundos
+setTimeout(() => { Gürtel(M, PP) }, 5000) // cada 5 segundos
 ```
 
 ## Referencias 
+
+- [Condena al PP por Corrupción](http://www.publico.es/politica/rajoy-dijo-guertel-trama-pp.html)
 
 - [La sentencia de Gürtel describe el fraude en el Partido Popular desde su fundación](https://www.eldiario.es/politica/sentencia-Gurtel-Partido-Popular-fundacion_0_774823627.html)
 
