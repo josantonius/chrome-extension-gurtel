@@ -75,7 +75,7 @@ Por ejemplo, por la bandera republicana:
 También puedes modificar el intervalo de actualización:
 
 ```javascript
-setTimeout(() => { Gürtel(M, PP) }, 5000) // cada 5 segundos
+setTimeout(() => { Gurtel(M, PP) }, 5000) // cada 5 segundos
 ```
 
 ## Referencias 
