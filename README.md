@@ -64,12 +64,12 @@ Sustituye en Twitter el emoji de la bandera de España por uno más acorde con e
 })({ Rajoy: '1f1ea-1f1f8.png' }, '//abs.twimg.com/emoji/v2/72x72/1f4e9.png')
 ```
 
-  > *Si quieres utilizar un emoji de sustitución diferente, utiliza el método de instalación 2, entra en el archivo `gurtel.js` antes de empaquetar la extensión y sustituye en la última línea la URL de la imagen del emoji de Twitter.*
+  > *Si quieres utilizar un emoji de sustitución diferente, utiliza el método de instalación 2, entra en el archivo `gurtel.js` antes de empaquetar la extensión y sustituye en la última línea la URL de la imagen del emoji.*
 
-Por ejemplo:
+Por ejemplo, por la bandera republicana:
 
 ```javascript
-})({ Rajoy: '1f1ea-1f1f8.png' }, 'https://abs.twimg.com/emoji/v2/72x72/1f4a9.png')
+})({ Rajoy: '1f1ea-1f1f8.png' }, 'https://raw.githubusercontent.com/Josantonius/chrome-extension-gurtel/master/assets/29-04-1931.png')
 ```
 
 También puedes modificar el intervalo de actualización:
