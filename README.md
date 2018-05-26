@@ -69,7 +69,7 @@ Sustituye en Twitter el emoji de la bandera de España por uno más acorde con e
 Por ejemplo, por la bandera republicana:
 
 ```javascript
-})({ Rajoy: '1f1ea-1f1f8.png' }, 'https://ton.twitter.com/i/ton/data/dm/1000489864549281796/1000489826519527424/i5IAqoz_.png')
+})({ Rajoy: '1f1ea-1f1f8.png' }, 'https://pbs.twimg.com/media/DeJ46boWkAs04mN.png')
 ```
 
 También puedes modificar el intervalo de actualización:
