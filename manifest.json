@@ -1,20 +1,24 @@
 {
   "name": "Gürtel",
-  "description": "Sustituye en Twitter el emoji de la bandera de España por uno más acorde con esos, que envueltos en un trozo de tela, saquean lealmente su patria.",
+  "description": "Sustituye en Twitter el emoji de la bandera de España por uno más acorde con esos que, envueltos en un trozo de tela, saquean lealmente su patria.",
   "version": "1.0",
   "permissions": [
     "activeTab"
   ],
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*"],
-      "js": ["gurtel.js"],
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "gurtel.js"
+      ],
       "run_at": "document_end"
     }
   ],
   "browser_action": {
-      "default_title": "Solo veo españoles",
-      "default_icon": "assets/icon.png"
+    "default_title": "Solo veo españoles",
+    "default_icon": "assets/icon.png"
   },
   "manifest_version": 2
 }

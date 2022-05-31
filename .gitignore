@@ -1,11 +1,5 @@
-.git*/
-vendor/
-docs/*.pyc
-docs/_build
-build/artifacts/
-composer.phar
-composer.lock
-composer-test.lock
-phpcbf-fixed.diff
-.idea
-modified-version/
+.vscode/
+.republican-flag-version/
+.repository.md
+gurtel.pem
+chrome-extension-gurtel.code-workspace
