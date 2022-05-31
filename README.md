@@ -63,8 +63,8 @@ or **use Git to clone it**.
 })({ Rajoy: '1f1ea-1f1f8.png' }, '//abs.twimg.com/emoji/v2/72x72/1f4e9.png')
 ```
 
-  > *If you want to use a different replacement emoji, use installation method 2, open the `gurtel.js` file before
-  > packing the extension and replace in the last line the URL of the image of the emoji hosted on Twitter.
+  > *If you want to use a different replacement emoji, use installation method 2, open the `gurtel.js` file before*
+  > *packing the extension and replace in the last line the URL of the image of the emoji hosted on Twitter.*
 
 For example, by the Republican flag:
 
