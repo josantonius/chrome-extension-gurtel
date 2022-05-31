@@ -1,62 +1,56 @@
-# Gürtel - Extensión para Chrome
+# Gürtel - Chrome extension
 
-Extensión conmemorativa a la sentencia del caso Gürtel.
+Commemorative extension to the Gürtel case sentence.
 
----
-
-- [Instalación](#instalación)
-- [Código](#código)
-- [Referencias](#referencias)
-- [Registro de Cambios](#registro-de-cambios)
-- [Contribuir](#contribuir)
-- [Patrocinar](#patrocinar)
-- [Licencia](#licencia)
+**Translations**: [Español](.github/lang/es-ES/README.md)
 
 ---
 
-Sustituye en Twitter el emoji de la bandera de España por uno más acorde con esos que,
-envueltos en un trozo de tela, saquean lealmente su patria.
+- [Installation](#installation)
+- [Code](#code)
+- [References](#references)
+- [Changelog](#changelog)
+- [Contribution](#contribution)
+- [Sponsor](#sponsor)
+- [License](#license)
 
-  > La extensión es tan inútil como ellos, pero al menos no te roba :smirk:
+---
 
-<p align="center">
-  <a href="assets/condena-pp-gurtel.png">
-    <img width="430px" src="assets/condena-pp-gurtel.png">
-  </a>
-  <a href="assets/condena-pp-gurtel-2.png">
-    <img width="430px" src="assets/condena-pp-gurtel-2.png">
-  </a>
-</p>
+Replace on Twitter the emoji of the flag of Spain by one more in line with those who, wrapped in a piece of cloth,
+loyally plunder their homeland.
 
-## Instalación
+  > This extension is as useless as they, but at least it doesn't steal from you :smirk:
 
-### Método 1
+[Original](/assets/condena-pp-gurtel.png) | [Result](/assets/condena-pp-gurtel-2.png)
 
-- **Descarga el archivo** [gurtel.crx](https://github.com/josantonius/chrome-extension-gurtel/raw/master/gurtel.crx).
+## Installation
 
-- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
+### Method 1
 
-- **Arrastra el archivo descargado** a la pestaña abierta de `chrome://extensions/`.
+- **Download the file** [gurtel.crx](https://github.com/josantonius/chrome-extension-gurtel/raw/master/gurtel.crx).
 
-- **Instala la extensión**.
+- **Go to the URL** `chrome://extensions/` and **check the developer mode box** at the top right.
 
-### Método 2
+- **Drag the generated file** (`gurtel.crx`) to the `chrome://extensions/ tab`.
 
-- [Descarga](https://github.com/josantonius/chrome-extension-gurtel/archive/master.zip) el repositorio completo
-o **utiliza Git para clonarlo**.
+- **Install the extension**.
 
-- **Descomprime el archivo ZIP**.
+### Method 2
 
-- **Entra en la URL** `chrome://extensions/` y **marca la casilla de modo de desarrollador** en la parte superior derecha.
+- [Download](https://github.com/josantonius/chrome-extension-gurtel/archive/master.zip) the full repository
+or **use Git to clone it**.
 
-- **Haz click en el botón empaquetar extensión** y selecciona el directorio `chrome-extension-gurtel` para
-**instalar la extensión**.
+- **Unzip the ZIP file**.
 
-- **Arrastra el archivo generado** (`gurtel.crx`) a la pestaña abierta de `chrome://extensions/`.
+- **Go to the URL** `chrome://extensions/` and **check the developer mode box** at the top right.
 
-- **Instala la extensión**.
+- **Click on the pack extension button** and select the `chrome-extension-gurtel` directory to **install it**.
 
-## Código
+- **Drag the generated file** (`gurtel.crx`) to the `chrome://extensions/ tab`.
+
+- **Install the extension**.
+
+## Code
 
 ```javascript
 (function Gurtel(M, PP, spanish, political, corruption) {
@@ -69,23 +63,22 @@ o **utiliza Git para clonarlo**.
 })({ Rajoy: '1f1ea-1f1f8.png' }, '//abs.twimg.com/emoji/v2/72x72/1f4e9.png')
 ```
 
-  > *Si quieres utilizar un emoji de sustitución diferente, utiliza el método de instalación 2,
-  > entra en el archivo `gurtel.js` antes de empaquetar la extensión y sustituye en la última línea la URL de la imagen
-  > del emoji alojado en Twitter.*
+  > *If you want to use a different replacement emoji, use installation method 2, open the `gurtel.js` file before
+  > packing the extension and replace in the last line the URL of the image of the emoji hosted on Twitter.
 
-Por ejemplo, por la bandera republicana:
+For example, by the Republican flag:
 
 ```javascript
 })({ Rajoy: '1f1ea-1f1f8.png' }, 'https://pbs.twimg.com/media/DeJ46boWkAs04mN.png')
 ```
 
-También puedes modificar el intervalo de actualización:
+You can also change the update interval:
 
 ```javascript
-setTimeout(() => { Gurtel(M, PP) }, 5000) // cada 5 segundos
+setTimeout(() => { Gurtel(M, PP) }, 5000) // every 5 seconds
 ```
 
-## Referencias
+## References
 
 - [Condena al PP por Corrupción](http://www.publico.es/politica/rajoy-dijo-guertel-trama-pp.html)
 
@@ -93,28 +86,28 @@ setTimeout(() => { Gurtel(M, PP) }, 5000) // cada 5 segundos
 
 - [Sentencia Gürtel: 51 años para Correa, 33 para Bárcenas y el PP condenado "a título lucrativo"](https://www.eldiario.es/politica/Audiencia-Nacional-Correa-Barcenas_0_774472885.html)
 
-## Registro de Cambios
+## Changelog
 
-Los cambios detallados de cada versión se documentan en las
-[notas de la misma](https://github.com/josantonius/chrome-extension-gurtel/releases).
+Detailed changes for each release are documented in the
+[release notes](https://github.com/josantonius/chrome-extension-gurtel/releases).
 
-## Contribuir
+## Contribution
 
-Por favor, asegúrate de leer la [Guía de Contribución](.github/lang/es-ES/CONTRIBUTING.md) antes de hacer una
-[solicitud de extracción (pull request)](.github/lang/es-ES/CONTRIBUTING.md#solicitudes-de-extracción-pull-requests),
-comenzar una [discusión (discussions)](.github/lang/es-ES/CONTRIBUTING.md#discusiones-discussions)
-o reportar un [problema (issue)](.github/lang/es-ES/CONTRIBUTING.md#problemas-issues).
+Please make sure to read the [Contributing Guide](.github/CONTRIBUTING.md),
+before making a [pull request](.github/CONTRIBUTING.md#pull-requests),
+start a [discussion](.github/CONTRIBUTING.md#discussions) or
+report a [issue](.github/CONTRIBUTING.md#issues).
 
-¡Gracias por [colaborar](https://github.com/josantonius/chrome-extension-gurtel/graphs/contributors) con este proyecto!
-:heart:
+Thanks to all [contributors](https://github.com/josantonius/chrome-extension-gurtel/graphs/contributors)
+to this project! :heart:
 
-## Patrocinar
+## Sponsor
 
-Si este proyecto te pareció interesante,
-[¡puedes patrocinarme!](https://github.com/josantonius/lang/es-ES/README.md#patrocinar) :blush:
+If you found this interesting,
+[you can become my sponsor!](https://github.com/josantonius#sponsor) :blush:
 
-## Licencia
+## License
 
-Este proyecto tiene una licencia [MIT License](.github/lang/es-ES/LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-Copyright © 2018-2022, [Josantonius](https://github.com/josantonius/lang/es-ES/README.md#contacto)
+Copyright © 2018-2022, [Josantonius](https://github.com/josantonius#contact)
