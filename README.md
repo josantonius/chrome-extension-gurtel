@@ -5,7 +5,7 @@ Extensión conmemorativa a la sentencia del caso Gürtel.
 ---
 
 - [Instalación](#instalación)
-- [Código](#codigo)
+- [Código](#código)
 - [Referencias](#referencias)
 - [Registro de Cambios](#registro-de-cambios)
 - [Contribuir](#contribuir)
@@ -69,7 +69,7 @@ o **utiliza Git para clonarlo**.
 })({ Rajoy: '1f1ea-1f1f8.png' }, '//abs.twimg.com/emoji/v2/72x72/1f4e9.png')
 ```
 
-  > *Si quieres utilizar un emoji de sustitución diferente, utiliza el método de instalación 2, 
+  > *Si quieres utilizar un emoji de sustitución diferente, utiliza el método de instalación 2,
   > entra en el archivo `gurtel.js` antes de empaquetar la extensión y sustituye en la última línea la URL de la imagen
   > del emoji alojado en Twitter.*
 
