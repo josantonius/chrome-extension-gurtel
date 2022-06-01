@@ -46,7 +46,7 @@ or **use Git to clone it**.
 
 - **Click on the pack extension button** and select the `chrome-extension-gurtel` directory to **install it**.
 
-- **Drag the generated file** (`gurtel.crx`) to the `chrome://extensions/ tab`.
+- **Drag the generated file** (`gurtel.crx`) to the `chrome://extensions/` tab.
 
 - **Install the extension**.
 
